@@ -1,7 +1,7 @@
 @extends('layouts.app')
 @section('content')
     <!-- Hero Section -->
-    <div class="relative pt-16 overflow-hidden">
+    <section class="relative pt-16 overflow-hidden">
         <!-- Decorative Islamic Pattern Top -->
         <div class="absolute top-0 left-0 w-full h-16 bg-primary-500 opacity-10" style="background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1NiIgaGVpZ2h0PSIxMDAiPgo8cmVjdCB3aWR0aD0iNTYiIGhlaWdodD0iMTAwIiBmaWxsPSIjMkE4NDg2Ij48L3JlY3Q+CjxwYXRoIGQ9Ik0yOCA2NkwwIDUwTDAgMTZMMjggMEw1NiAxNkw1NiA1MEwyOCA2NkwyOCAxMDBMNTYgMTAwTDU2IDAgTDI4IDBMMjggNjZaIiBmaWxsPSJub25lIiBzdHJva2U9IiNGRkZGRkYiIHN0cm9rZS13aWR0aD0iMiI+PC9wYXRoPgo8cGF0aCBkPSJNMjggMEwyOCA2Nkw1NiA1MEw1NiAxNkwyOCAwWiIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjRkZGRkZGIiBzdHJva2Utd2lkdGg9IjIiPjwvcGF0aD4KPC9zdmc+'); background-repeat: repeat-x;"></div>
 
@@ -85,6 +85,20 @@
         
         <!-- Decorative Islamic Pattern Bottom -->
         <div class="absolute bottom-0 left-0 w-full h-16 bg-accent-500 opacity-10" style="background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1NiIgaGVpZ2h0PSIxMDAiPgo8cmVjdCB3aWR0aD0iNTYiIGhlaWdodD0iMTAwIiBmaWxsPSIjRDI4RjMzIj48L3JlY3Q+CjxwYXRoIGQ9Ik0yOCA2NkwwIDUwTDAgMTZMMjggMEw1NiAxNkw1NiA1MEwyOCA2NkwyOCAxMDBMNTYgMTAwTDU2IDAgTDI4IDBMMjggNjZaIiBmaWxsPSJub25lIiBzdHJva2U9IiNGRkZGRkYiIHN0cm9rZS13aWR0aD0iMiI+PC9wYXRoPgo8cGF0aCBkPSJNMjggMEwyOCA2Nkw1NiA1MEw1NiAxNkwyOCAwWiIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjRkZGRkZGIiBzdHJva2Utd2lkdGg9IjIiPjwvcGF0aD4KPC9zdmc+'); background-repeat: repeat-x;"></div>
+    </section>
+    <div class="container mx-auto px-4 py-12">
+        <div class="max-w-4xl mx-auto bg-white rounded-xl overflow-hidden">
+            <div class="p-6">
+                <div class="relative w-full pb-[56.25%] h-0 overflow-hidden rounded-lg shadow-md transition-all duration-300 hover:shadow-xl">
+                    <iframe 
+                        src="https://www.youtube.com/embed/tgbNymZ7vqY" 
+                        title="Interactive Content"
+                        class="absolute top-0 left-0 w-full h-full border-0"
+                        allowfullscreen
+                    ></iframe>
+                </div>
+            </div>
+        </div>
     </div>
      <!-- Programs Section -->
     <section class="py-16 bg-white relative overflow-hidden">
@@ -294,11 +308,11 @@
                 </button>
             </div>
         </template>
-    </div>
+        </div>
     
         </div>
     </section>
-
+    
     <!-- Galeri Kegiatan Section -->
     <section class="py-16 bg-white relative overflow-hidden">
         <!-- Decorative Elements -->
